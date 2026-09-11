@@ -34,6 +34,10 @@ _Avoid_: Spawn, start line
 A Wrestler's belly-first lunge along its current lean. One press of its Player's key gives one Charge, available whenever any part of the Wrestler touches the Ring or the Floor. It is the Wrestler's only action: the same Charge, well timed, is also how a fallen Wrestler gets back up.
 _Avoid_: Move, jump, thrust, attack, squirm
 
+**Belly Bump**:
+Contact between the two Wrestlers' bellies. It throws them apart harder than any other contact.
+_Avoid_: Collision, hit, clash
+
 ## Flow
 
 **Ready Check**:
