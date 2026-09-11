@@ -20,7 +20,7 @@ Read `CONTEXT.md` first and use its words in code and comments (Wrestler, Ring, 
 - Physics world uses **y-down** coordinates (gravity is +y) so physics and screen agree. `PPM = 10` pixels per physics metre. All config geometry is in pixels.
 - Controls: Player 1 = `KeyW`, Player 2 = `ArrowUp`. One press = one Charge. Holding and key-repeat do nothing. START and REMATCH are clicked with the mouse.
 - Points to win a Match: **5**.
-- All tuning numbers live in `src/config.js`. No magic numbers elsewhere.
+- All game-feel tuning numbers (sizes, physics, move strengths, timings) live in `src/config.js`. Small drawing and animation constants that only one module uses (text positions, dance wobble amounts) may stay in that module, exactly as written in this plan.
 - Commit after every task. End every commit message with `Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>`.
 
 ## Agreed Game Design (the spec)
